@@ -7,6 +7,10 @@ stored in cookies.
 
 ------------------------------------------------------------------------
 
+vercel-https://login-and-logout-tau.vercel.app/
+
+------------------------------------------------------------------------
+
 ## 🚀 Features
 
 -   Secure login/logout flow using JWT and bcrypt
