@@ -98,14 +98,15 @@ const Register = () => {
               <button type="submit" className='btn-register'>Register</button>
               <Link to="/">
                 <button type="button" className="btn-login">Login</button>
-              </Link>
-              {errorMsg && <p className="error-msg">{errorMsg}</p>}
+              </Link><br />
+            </div>
+
+            {errorMsg && <p className="error-msg">{errorMsg}</p>}
               {successMsg && (
                 <Link to="/">
                   <p className="success-msg">{successMsg} Click here to login</p>
                 </Link>
               )}
-            </div>
           </form>
         </div>
       </div>
