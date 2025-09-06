@@ -27,7 +27,7 @@ const Register = () => {
     event.preventDefault();
     const userData = { username, email, password, gender, phone, address};
 
-    const url = 'http://localhost:3001/register';
+    const url = 'https://loginandlogout-egfg.onrender.com/register';
 
     const options = {
       method: 'POST',

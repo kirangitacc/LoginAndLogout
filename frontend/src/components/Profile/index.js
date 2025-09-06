@@ -22,7 +22,7 @@ const Profile = () => {
       }
 
       try {
-        const response = await fetch(`http://localhost:3001/user/${userId}`, {
+        const response = await fetch(`https://loginandlogout-egfg.onrender.com/user/${userId}`, {
           method: 'GET',
           headers: {
             Authorization: `Bearer ${token}`,
